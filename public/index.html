@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>freeCodeCamp Timestamp Microservice Project</title>
+</head>
+<body>
+	<h1><a id="freeCodeCamp_Timestamp_Microservice_Project_0"></a>freeCodeCamp Timestamp Microservice Project</h1>
+<p>found here: <a href="https://www.freecodecamp.org/challenges/timestamp-microservice">https://www.freecodecamp.org/challenges/timestamp-microservice</a></p>
+<h2><a id="description_3"></a>description</h2>
+<p>User can submit either a UNIX timestamp or a natural human-readable time as a url path, and the server will respond with both the UNIX time and human-readable time in JSON. Based on the project found here: <a href="https://www.freecodecamp.org/challenges/timestamp-microservice">https://www.freecodecamp.org/challenges/timestamp-microservice</a></p>
+<h2><a id="endpoints_6"></a>endpoints</h2>
+<h3><a id="unix_timestamp_or_date_string_8"></a>/unix_timestamp or /date_string</h3>
+<p>either of these endpoints will return the same information, a JSON representation of the time requested as both a human-readable date string and as a UNIX timestamp. The date_string endpoint is flexible with formatting and will accept a variety of formatting styles as demonstrated below:</p>
+<p><strong>American Style Dates</strong></p>
+<ul>
+<li>december 12, 2017</li>
+<li>December 14th, 2018</li>
+<li>dec 18 2016</li>
+</ul>
+<p><strong>Britishn Style Dates</strong></p>
+<ul>
+<li>12 december 2017</li>
+<li>1st of December, 2018</li>
+<li>16 dec, 2016</li>
+</ul>
+<p><strong>General formatting guidelines for dates</strong></p>
+<ul>
+<li>Month name can be long or short, uppercase/lowercase/capitalized doesn’t matter (dec/December/DEC).</li>
+<li>day can numeric, 2-digit, and may be followed by ordinals: 01,12,1st,3rd,24th</li>
+<li>year must be 4 digit, and may be preceded by a comma, but is not necessary: ‘, 2017’ or ’ 2017’</li>
+<li>if using british style, “of” may be placed between day and month.</li>
+</ul>
+<h2><a id="dependencies_27"></a>dependencies</h2>
+<p>are listed in package.json . Only requires node &amp; express to run.</p>
+</body>
+</html>

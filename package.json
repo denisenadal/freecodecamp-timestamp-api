@@ -1,0 +1,25 @@
+{
+  "name": "den-freeCodeCamp_Timestamp_Microservice_Project",
+  "version": "1.0.1",
+  "description": "User can submit either a UNIX timestamp or a natural human-readable time as a url path, and the server will respond with both the UNIX time and human-readable time in JSON. Based on the project found here: https://www.freecodecamp.org/challenges/timestamp-microservice",
+  "homepage":"https://codecamp-timestamp-server.glitch.me",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/welcome-project"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
