@@ -5,7 +5,7 @@
   "homepage":"https://codecamp-timestamp-server.glitch.me",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "express": "^4.16.2"
